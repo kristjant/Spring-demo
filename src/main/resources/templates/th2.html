@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>TH2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<div class="container">
+<body>
+<table class="table table-bordered table-striped">
+    <thead>
+    <th>ID</th>
+    <th>Eesnimi</th>
+    <th>Perenimi</th>
+    </thead>
+    <tr th:each="cu : ${customers}">
+        <td th:text="${cu.id}">asdasdasd</td>
+        <td th:text="${cu.eesnimi}">Mati</td>
+        <td th:text="${cu.perenimi}">Kaal</td>
+    </tr>
+</table>
+</body>
+</div>
+</html>
