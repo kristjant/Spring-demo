@@ -5,9 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * Created by kristjantalvar on 04/04/16.
- */
 @Controller
 public class ThymeLeaf2 {
 

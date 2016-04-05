@@ -3,10 +3,6 @@ package com.kristjan;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 
-
-/**
- * Created by kristjantalvar on 04/04/16.
- */
 @Getter
 @Setter
 @NoArgsConstructor

@@ -8,9 +8,6 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.List;
 
-/**
- * Created by kristjantalvar on 04/04/16.
- */
 @RepositoryRestResource
 public interface CustomerRepository extends MongoRepository<Customer, String> {
 
